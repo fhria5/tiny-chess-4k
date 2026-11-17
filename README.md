@@ -6,6 +6,10 @@
 
 A compact chess engine in 4 KB of Python: 0x88 board, negamax alpha-beta with quiescence search, transposition table, principal-variation search, null-move pruning, futility pruning and history heuristic, with iterative deepening on a fixed node budget. It plays the make.fun tiny-chess-01 gauntlet through the HTTP environment. Practice Elo ~1364 (trial 0), above the sunfish 4K baseline (~1325).
 
+## Practice
+
+Trial 0 on the exact submitted config: Elo 1364, 3 wins / 1 draw / 2 losses, 80,000-node budget, about 1.6 s per move. Trials 1–2 ran an older 60,000-node config (Elo 1099 each) and are not representative of the submitted config.
+
 ## Run it
 
 ```sh
